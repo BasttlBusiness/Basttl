@@ -24,7 +24,7 @@ get_header();
 				?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
+			</header>
 				<?php
 				$breadcrumb_enable = get_theme_mod( 'collective_news_breadcrumb_enable', true );
 				if ( $breadcrumb_enable ) :
